@@ -33,7 +33,7 @@ if marks >= 80:
 if marks >=90:
    print("you get tour")
 else:
-   print("you get nothing")
+   print("you get nothing")'''
 
 
 
@@ -44,31 +44,3 @@ if ( letter in "aeiou"):
     print("vowel")
 else:
     print("its not")
-
-
-
-num = int(input("enter number here" ))
-print(num)
-if num %2==0:
-    print("number is even")
-elif num %2!=0:
-    print("number is odd")
-elif num<0:
-   print("please enter positive number")
-
-else:
- 
- print("number is positive")
-
-
-import time
-timestamp = time.strftime   ('%H,%M,%S')
-print(timestamp)
-timestamp = time.strftime('%H')
-print(timestamp)
-timestamp = time.strftime('%M')
-print(timestamp)
-'''
-
-
-

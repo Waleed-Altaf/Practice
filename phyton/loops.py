@@ -1,18 +1,6 @@
-names = []
-while len(names) < 5:
-    name = input("Enter a name: ")
-    if name.strip() == "":
-        print("Empty name skipped. Try again.")
-        continue
-    names.append(name)
-
-print("You entered these names:", names)
- 
-
- 
 #for
 
-'''n = int(input ("enter a number"))
+'''n = int(input("enter a number"))
 for i in range (1,11):
     print(n , "x", i,"=",n*i)
 
@@ -25,6 +13,7 @@ a = int(input("enter a number here"))
 while n <=10:
     print(a,"x",n,"=",a*n)
     n+=1
+
 
 
 

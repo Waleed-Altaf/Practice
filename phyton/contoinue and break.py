@@ -1,4 +1,4 @@
-# continue
+'''#continue
 for i in range(1,11):
         if i ==5:
             continue
@@ -27,7 +27,7 @@ secret_number = random.randint(1, 100)  # random number between 1 and 100
 guess = None  # to store the user's guess
 attempts = 0  # to count the number of guesses
 
-'''print("🎮 Welcome to the Number Guessing Game!")
+print("🎮 Welcome to the Number Guessing Game!")
 print("I'm thinking of a number between 1 and 100.")
 
 while guess != secret_number:
@@ -40,4 +40,3 @@ while guess != secret_number:
         print("Too high! Try again.")
     else:
         print(f"🎉 Correct! You guessed the number in {attempts} attempts.")
-
