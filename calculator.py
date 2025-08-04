@@ -19,4 +19,9 @@ except ValueError:
     print("Invalid input! Please enter numeric values.")
 except Exception as e:
     print("An error occurred:", e)
- 
+    if operator == '%':
+        if num2 == 0:
+            print("Error: Division by zero is not allowed.")
+        else:
+            result = num1 % num2
+            print("result", result)
